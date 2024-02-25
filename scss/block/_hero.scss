@@ -1,0 +1,251 @@
+.hero
+{
+    background-color: rgb(237, 243, 248);
+    padding-top: 115px;
+    background-repeat: no-repeat;
+    background-image: url('/img/bg_hero_tab.png');
+    background-position: center top -60px;
+}
+.hero__block
+{
+    text-align: center;
+}
+.hero_phone
+{
+width: 113px;
+margin-bottom: 35px;
+}
+
+.hero__title
+{
+color: rgb(54, 83, 107);
+font-family: DM Serif Display;
+font-size: 33px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.25px;
+margin-bottom: 24px;
+}
+.hero__email
+{
+color: rgb(54, 83, 107);
+font-family: Public Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0px;
+border: none;
+outline: none;
+border-radius: 24px;
+box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+background-color: rgb(251, 252, 254);
+padding-top: 16px;
+padding-bottom: 14px;
+padding-right: 110px;
+padding-left:27px;
+margin-bottom: 14px;
+&::placeholder
+{
+    opacity: 0.5;
+}
+}
+.hero__button
+{
+color: rgb(251, 252, 254);
+font-family: Public Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: -0.12px;
+border-radius: 24px;
+background-color: rgb(186, 66, 112);
+padding:16px 105px;
+border: none;
+margin-bottom: 24px;
+&:hover
+{
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            background: rgb(218, 109, 151);
+            border-radius: 24px;
+}
+}
+.hero__any
+{
+    color: rgb(108, 130, 148);
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.5;
+}
+.hero__contact
+{
+    color: rgb(54, 83, 107);
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    opacity: 0.7;
+    margin-left: 3px;
+    &:hover
+{
+    color: rgb(54, 83, 107);
+font-family: Public Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0px;
+opacity: 10;
+}
+}
+.hero__span
+{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    padding-bottom: 80px;
+}
+@media screen and (min-width: 768px){
+    
+    .hero_phone
+    {
+        width:155px;
+        margin-bottom: 50px;
+    }
+    .hero
+{
+    background-position: center top -20px;
+}
+.hero__title
+{
+color: rgb(54, 83, 107);
+font-family: DM Serif Display;
+font-size: 48px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.25px;
+margin-bottom: 50px;
+width: 573px;
+margin-left: auto;
+margin-right: auto;
+}
+.hero__button
+{
+color: rgb(251, 252, 254);
+font-family: Public Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: -0.12px;
+border-radius: 24px;
+background-color: rgb(186, 66, 112);
+padding:15px 26px;
+margin-left: -50px;
+}
+.hero__email
+{
+    border-bottom-right-radius:0;
+    border-top-right-radius:0;
+}
+.hero__form_block
+{
+    display: flex;
+    justify-content: center;
+}
+}
+@media screen and (min-width: 800px){
+    .hero
+    {
+        background-image: url('/img/bg_hero_deck.svg');
+        background-position: right top;
+    
+    } 
+    .hero_phone
+    {
+     width: 257px;
+     margin-top: 40px;
+
+    }
+    
+}
+@media screen and (min-width: 1250px){
+    .hero
+{
+    background-image: url('/img/bg_hero_deck.svg');
+    background-position: right top;
+
+}
+.hero__info
+{
+    justify-content: start;
+}
+   .hero__block
+   {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+   } 
+   .hero_phone
+   {
+    width: 257px;
+    margin-top: 40px;
+    margin-left: 150px;
+   }
+   .hero__info
+   {
+    margin-left: -200px;
+    margin-top: 140px;
+   }
+   .hero__title
+   {
+       font-size: 60px;
+       font-weight: 400;
+       line-height: 60px;
+       letter-spacing: -0.55px;
+       font-family: DM Serif Display;
+       text-align: left;
+       width: 372px;
+       margin-left: 30px;
+   }
+   .hero__form_block
+{
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+}
+.hero__span
+{
+    margin-left: 30px;
+}
+
+}
+@media screen and (min-width: 1440px){
+    .hero__block
+    {
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content:space-between;
+    } 
+    .hero_phone
+    {
+        margin-right: 200px;
+    }
+    .hero__info
+    {
+        margin-left: 70px;
+    }
+    .hero__title
+    {
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.55px;
+        font-family: DM Serif Display;
+        text-align: left;
+        width: 546px;
+    }
+}

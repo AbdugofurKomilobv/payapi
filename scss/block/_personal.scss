@@ -1,0 +1,55 @@
+.personal
+{
+background: rgb(237, 243, 248);
+text-align: center;
+}
+.personal__card_img
+{
+    margin-bottom: 33px;
+}
+.personal__block_title
+{
+color: rgb(54, 83, 107);
+font-family: Public Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.14px;
+margin-bottom: 16px;
+}
+.personal__block_description
+{
+    color: rgb(108, 130, 148);
+font-family: Public Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.12px;
+padding-bottom: 48px;
+}
+@media screen and (min-width: 768px) {
+    .personal__block
+    {
+        display: flex;
+        justify-content:space-between;
+        gap: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .personal__block_description
+    {
+        width: 223px;
+    }
+}
+@media screen and (min-width: 1250px) {
+
+    .personal__block_description
+    {
+        width: 350px;
+    }
+    .personal__block
+    {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
